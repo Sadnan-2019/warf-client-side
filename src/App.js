@@ -6,6 +6,7 @@ import Competitions from './components/Competitions/Competitions';
 import Events from './components/Events/Events';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Partner from './components/Partner/Partner';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
        <Landing></Landing>
        <Competitions></Competitions>
        <Events></Events>
+       <Partner></Partner>
        <Contact></Contact>
        <Footer></Footer>
     </div>
