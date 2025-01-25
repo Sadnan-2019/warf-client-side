@@ -28,7 +28,7 @@ const Competitions = () => {
                 We follow our process to get you started as quickly as possible
               </p> */}
             </div>
-            <div class="mt-16 grid divide-x divide-y  divide-gray-700 overflow-hidden rounded-3xl border  border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
+            <div class="mt-16 grid divide-x divide-y  divide-gray-100 overflow-hidden rounded-3xl border  border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
               <div class=" whyone   text-white    relative   transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D] ">
                 <div class="relative space-y-8 py-12 p-8">
                   <svg

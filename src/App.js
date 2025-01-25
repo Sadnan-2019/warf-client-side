@@ -7,6 +7,7 @@ import Events from './components/Events/Events';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Partner from './components/Partner/Partner';
+import Achivment from './components/Achivment/Achivment';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
        <Landing></Landing>
        <Competitions></Competitions>
        <Events></Events>
+       <Achivment></Achivment>
        <Partner></Partner>
        <Contact></Contact>
        <Footer></Footer>
