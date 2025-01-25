@@ -64,7 +64,7 @@ const Landing = () => {
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}
-                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-red-500 ${
+                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl       text-blue-500 ${
                           currentSlide === 0 ? "animated" : ""
                         }`}
                       >
@@ -87,7 +87,7 @@ const Landing = () => {
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}
-                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-red-500 ${
+                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl      text-red-500 ${
                           currentSlide === 1 ? "animated" : ""
                         }`}
                       >
@@ -114,7 +114,7 @@ const Landing = () => {
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}
-                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-red-500 ${
+                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl       text-red-500 ${
                           currentSlide === 2 ? "animated" : ""
                         }`}
                       >
