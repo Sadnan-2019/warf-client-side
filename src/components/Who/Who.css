@@ -1,0 +1,6 @@
+.full-width-slider {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+  }

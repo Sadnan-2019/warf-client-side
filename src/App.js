@@ -9,6 +9,8 @@ import Footer from './components/Footer/Footer';
 import Partner from './components/Partner/Partner';
 import Achivment from './components/Achivment/Achivment';
 import Speach from './components/Speach/Speach';
+import Who from './components/Who/Who';
+import Team from './components/Team/Team';
 
 function App() {
   return (
@@ -17,9 +19,13 @@ function App() {
        <Landing></Landing>
        <Competitions></Competitions>
        <Events></Events>
+       {/* <Who></Who>
+        */}
+       
        <Achivment></Achivment>
-       <Speach></Speach>
+       {/* <Speach></Speach> */}
        <Partner></Partner>
+       <Team></Team>
        <Contact></Contact>
        <Footer></Footer>
     </div>

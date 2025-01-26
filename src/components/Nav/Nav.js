@@ -38,7 +38,7 @@ const Nav = () => {
   
           <ul
             tabIndex={0}
-            className="w-52 dropdown-content menu p-2 shadow  rounded-box lg:w-52      "
+            className="w-52 dropdown-content menu p-2 shadow  rounded-box lg:w-52 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D]   "
            
           >
             <li className="nav-item p-2">
@@ -48,7 +48,7 @@ const Nav = () => {
                 }
                 to="/water-lily-hall"
               >
-                PROGRAM 1
+                Robotics League 
               </NavLink>
             </li>
             <li className="nav-item p-2">
@@ -58,19 +58,10 @@ const Nav = () => {
                 }
                 to="/orcid-hall"
               >
-               PROGRAM 2
+             AI League
               </NavLink>
             </li>
-            <li className="nav-item p-2">
-              <NavLink onClick={() => setIsOpen(false)}
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${dropnormal}`
-                }
-                to="/sunflower"
-              >
-               PROGRAM 3
-              </NavLink>
-            </li>
+           
             {/* <li className="nav-item p-2">
               <NavLink onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
@@ -81,26 +72,8 @@ const Nav = () => {
                 Tulip Garden & Resturent
               </NavLink>
             </li> */}
-            <li className="nav-item p-2">
-              <NavLink onClick={() => setIsOpen(false)}
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${dropnormal}`
-                }
-                to="/camellia"
-              >
-                PROGRAM 4
-              </NavLink>
-            </li>
-            <li className="nav-item p-2">
-              <NavLink onClick={() => setIsOpen(false)}
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${dropnormal}`
-                }
-                to="/rbg"
-              >
-                 PROGRAM 5
-              </NavLink>
-            </li>
+           
+            
           </ul>
         </li>
   

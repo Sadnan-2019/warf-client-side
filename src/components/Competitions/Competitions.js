@@ -29,7 +29,7 @@ const Competitions = () => {
               </p> */}
             </div>
             <div class="mt-16 grid divide-x divide-y  divide-gray-100 overflow-hidden rounded-3xl border  border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
-              <div class=" whyone   text-white    relative   transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D] ">
+              <div class=" whyone   text-white    relative   transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10  bg-gradient-to-r from-[#341850] via-[#13011b] to-[#38235D]">
                 <div class="relative space-y-8 py-12 p-8">
                   <svg
                     stroke="currentColor"
@@ -53,7 +53,7 @@ const Competitions = () => {
                     Robo
                     Mission
                     </h5>
-                    <p class="text-black">
+                    <p class="text-white">
                       We will have discussions on the requirements to ensure
                       your MVP (Minimum Viable Product) is ready for the initial
                       launch
@@ -61,7 +61,7 @@ const Competitions = () => {
                   </div>
                 </div>
               </div>
-              <div class="group relative  transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D] ">
+              <div class="group relative  transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10  bg-gradient-to-r from-[#341850] via-[#13011b] to-[#38235D]">
                 <div class="relative space-y-8 py-12 p-8">
                   <svg
                     stroke="currentColor"
@@ -92,7 +92,7 @@ const Competitions = () => {
                   </div>
                 </div>
               </div>
-              <div class="whyone   group relative  transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D] ">
+              <div class="whyone   group relative  transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10  bg-gradient-to-r from-[#341850] via-[#13011b] to-[#38235D]">
                 <div class="relative space-y-8 py-12 p-8">
                   <svg
                     stroke="currentColor"
@@ -123,7 +123,7 @@ const Competitions = () => {
                   </div>
                 </div>
               </div>
-              <div class="group relative   transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D] ">
+              <div class="group relative   transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10  bg-gradient-to-r from-[#341850] via-[#13011b] to-[#38235D]">
                 <div class="relative space-y-8 py-12 p-8">
                   <svg
                     stroke="currentColor"

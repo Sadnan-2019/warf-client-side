@@ -6,7 +6,7 @@ const Footer = () => {
             <div class="w-full h-full   ">
 
  
-<footer class="w-full h-fit lg:relative md:bottom-0 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D] text-white">
+<footer class="w-full h-fit lg:relative md:bottom-0  bg-gradient-to-r from-[#341850] via-[#13011b] to-[#38235D] text-white">
     <div class="w-full mx-aut sm:px-10 px-4 pb-10">
         <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 justify-items-start pt-12">
         

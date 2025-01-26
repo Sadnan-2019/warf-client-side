@@ -15,7 +15,7 @@ const Achivment = () => {
               data-clickable="Category:20:category-card"
               class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
-              <div class="flex items-center p-6  bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D] ">
+              <div class="flex items-center p-6   bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
                 <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
                   <span
                     class="text-4xl"
@@ -63,7 +63,7 @@ const Achivment = () => {
               data-clickable="Category:5:category-card"
               class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
-              <div class="flex items-center p-6 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D]">
+              <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
                 <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
                   <span
                     class="text-4xl"
@@ -112,7 +112,7 @@ const Achivment = () => {
               data-clickable="Category:86:category-card"
               class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
-              <div class="flex items-center p-6 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D]">
+              <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
                 <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
                   <span
                     class="text-4xl"
@@ -160,7 +160,7 @@ const Achivment = () => {
               data-clickable="Category:44:category-card"
               class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
-              <div class="flex items-center p-6 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D]">
+              <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
                 <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
                   <span
                     class="text-4xl"
@@ -208,7 +208,7 @@ const Achivment = () => {
               data-clickable="Category:17:category-card"
               class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
-              <div class="flex items-center p-6 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D]">
+              <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
                 <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
                   <span
                     class="text-4xl"
@@ -256,7 +256,7 @@ const Achivment = () => {
               data-clickable="Category:11:category-card"
               class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
-              <div class="flex items-center p-6 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D]">
+              <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
                 <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
                   <span
                     class="text-4xl"
@@ -304,7 +304,7 @@ const Achivment = () => {
               data-clickable="Category:42:category-card"
               class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
-              <div class="flex items-center p-6 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D]">
+              <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
                 <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
                   <span
                     class="text-4xl"
@@ -352,7 +352,7 @@ const Achivment = () => {
               data-clickable="Category:8:category-card"
               class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
-              <div class="flex items-center p-6 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D]">
+              <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
                 <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
                   <span
                     class="text-4xl"
@@ -400,7 +400,7 @@ const Achivment = () => {
               data-clickable="Category:9:category-card"
               class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
-              <div class="flex items-center p-6 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D] ">
+              <div class="flex items-center p-6  bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D] ">
                 <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
                   <span
                     class="text-4xl"
