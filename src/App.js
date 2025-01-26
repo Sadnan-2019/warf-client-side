@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Partner from './components/Partner/Partner';
 import Achivment from './components/Achivment/Achivment';
+import Speach from './components/Speach/Speach';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
        <Competitions></Competitions>
        <Events></Events>
        <Achivment></Achivment>
+       <Speach></Speach>
        <Partner></Partner>
        <Contact></Contact>
        <Footer></Footer>
