@@ -5,7 +5,7 @@ const Events = () => {
     <div>
       <div class="w-full min-h-screen flex flex-col items-center justify-center ">
         {/* <span class="text-md md:text-lg font-bold text-[#117278] flex items-center gap-1"><ion-icon name="heart-outline"></ion-icon>Our Insights</span> */}
-        <h2 class="text-4xl sm:text-5xl md:text-4xl text-center chelsea-market-regular font-bold text-[#6b2c86] md:mb-16 mb-10">
+        <h2 class="text-4xl sm:text-5xl md:text-4xl text-center chelsea-market-regular font-bold text-[#6b2c86] md:mb-16 py-5 mb-10">
           Our Events{" "}
         </h2>
 
