@@ -58,19 +58,19 @@ const Landing = () => {
         <Slider {...settings} className="">
           <div className=" ">
             <section className="landingone  blog h-auto        ">
-              <div class="  relative z-10 flex flex-col justify-center items-center h-full text-center  ">
+              <div class="  relative z-10 flex flex-col justify-center items-center h-full text-left ">
                 <div class=" ">
                   <div class="   ">
-                    <div class="text-center">
+                    <div class=" text-center ">
                       <h1
                         style={{ lineHeight: "120%" }}
-                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl       text-blue-500 ${
+                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl       text-white ${
                           currentSlide === 0 ? "animated" : ""
                         }`}
                       >
-                        A premier diagnostic & hospital
-                        <br class=" lg:block" />
-                        in Trishal,Mymensingh
+                        Welcome to the World AI & Robotics Foundation
+                        <br class=" lg:block text-center" />
+                        Empowering the Future of Technology
                       </h1>
                     </div>
                   </div>
@@ -87,15 +87,13 @@ const Landing = () => {
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}
-                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl      text-red-500 ${
+                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl      text-white ${
                           currentSlide === 1 ? "animated" : ""
                         }`}
                       >
-                        This institution boasts the best and most qualified
-                        professionals
+                        AI and robotics are unlocking new frontiers in 
                         <br class=" lg:block" />
-                        with the most updated and modern infrastructure &
-                        technology
+                        industries, education, and daily life.
                       </h1>
                     </div>
                   </div>
@@ -114,14 +112,13 @@ const Landing = () => {
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}
-                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl       text-red-500 ${
+                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl       text-white ${
                           currentSlide === 2 ? "animated" : ""
                         }`}
                       >
-                        All surgery, diagnostic tests, medicines & blood banks
-                        are
+                       Spark curiosity and innovation 
                         <br class=" lg:block" />
-                        under one umbrella.{" "}
+                        in the minds shaping tomorrow.
                       </h1>
                     </div>
                   </div>
