@@ -12,6 +12,7 @@ import Achivment from './components/Achivment/Achivment';
  
 import Team from './components/Team/Team';
 import WeDo from './components/WeDo/WeDo';
+import Speach from './components/Speach/Speach'
  
 
 function App() {

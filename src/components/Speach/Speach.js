@@ -1,9 +1,9 @@
 import React from 'react';
-
+import "./Speach.css"
 const Speach = () => {
     return (
         <div>
-            <div class="w-full flex flex-col md:flex-row py-24 dark:bg-gray-800">
+            {/* <div class="w-full flex flex-col md:flex-row py-24 dark:bg-gray-800">
     <div class="relative w-full ml-auto mt-6 md:!mt-0 md:-mr-[68px] md:w-auto  ">
         <svg xmlns="http://www.w3.org/2000/svg" class="relative z-10 rotate-90 mx-auto w-4/5 md:w-[300px] md:h-[300px]" id="Layer_1" viewBox="0 0 512 512" ><path d="m485.291 129.408-224-128a10.645 10.645 0 0 0-10.581 0l-224 128a10.665 10.665 0 0 0-5.376 9.259v234.667c0 3.819 2.048 7.36 5.376 9.259l224 128c1.643.939 3.456 1.408 5.291 1.408s3.648-.469 5.291-1.408l224-128a10.665 10.665 0 0 0 5.376-9.259V138.667a10.668 10.668 0 0 0-5.377-9.259z" fill="url(&quot;#SvgjsLinearGradient1060&quot;)"></path><defs><linearGradient id="SvgjsLinearGradient1060"><stop stop-color="#059669" offset="0"></stop><stop stop-color="#059669" offset="1"></stop></linearGradient></defs></svg>
         <div class="absolute max-w-[60%] left-[19%] md:left-[13%] md:max-w-[75%] z-20 top-0 text-center text-white max-h-[300px] pt-3 md:!pt-12 overflow-hidden">     
@@ -75,7 +75,55 @@ const Speach = () => {
             </p>
         </div>    
     </div>
+</div> */}
+
+<div class="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+  {/* <!-- First Row -->? */}
+  <div class="flex space-x-4">
+    <div class="relative w-40 h-40 bg-green-600 text-white flex items-center justify-center text-center p-4 clip-hex">
+      <p class="font-bold">The Feature of #1</p>
+      <p class="text-sm mt-2">
+        One of a lot of features is that's free forever. You can copy and paste or modify however you want.
+      </p>
+    </div>
+    <div class="relative w-40 h-40 bg-green-600 text-white flex items-center justify-center text-center p-4 clip-hex">
+      <p class="font-bold">The Feature of #1</p>
+      <p class="text-sm mt-2">
+        One of a lot of features is that's free forever. You can copy and paste or modify however you want.
+      </p>
+    </div>
+    <div class="relative w-40 h-40 bg-green-600 text-white flex items-center justify-center text-center p-4 clip-hex">
+      <p class="font-bold">The Feature of #1</p>
+      <p class="text-sm mt-2">
+        One of a lot of features is that's free forever. You can copy and paste or modify however you want.
+      </p>
+    </div>
+  </div>
+  {/* <!-- Second Row --> */}
+  <div class="flex space-x-4 mt-[-40px]">
+    <div class="relative w-40 h-40 bg-green-600 text-white flex items-center justify-center text-center p-4 clip-hex">
+      <p class="font-bold">The Feature of #1</p>
+      <p class="text-sm mt-2">
+        One of a lot of features is that's free forever. You can copy and paste or modify however you want.
+      </p>
+    </div>
+    <div class="relative w-40 h-40 bg-green-600 text-white flex items-center justify-center text-center p-4 clip-hex">
+      <p class="font-bold">The Feature of #1</p>
+      <p class="text-sm mt-2">
+        One of a lot of features is that's free forever. You can copy and paste or modify however you want.
+      </p>
+    </div>
+    <div class="relative w-40 h-40 bg-green-600 text-white flex items-center justify-center text-center p-4 clip-hex">
+      <p class="font-bold">The Feature of #1</p>
+      <p class="text-sm mt-2">
+        One of a lot of features is that's free forever. You can copy and paste or modify however you want.
+      </p>
+    </div>
+  </div>
 </div>
+
+
+
         </div>
     );
 };

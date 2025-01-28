@@ -1,4 +1,12 @@
 import React from "react";
+import research from "../../assets/new research-and-development (1).png"
+import  global from "../../assets/global.png"
+import  Education from "../../assets/education&traninig.png"
+import  Collaboration from "../../assets/collaboration.png"
+import  advocacy from "../../assets/advocacy.png"
+import  start from "../../assets/startup.png"
+import  community from "../../assets/comuunity.png"
+import  policy from "../../assets/policy.png"
 import "./WeDo.css";
 const WeDo = () => {
   return (
@@ -19,18 +27,18 @@ const WeDo = () => {
 
             <div class="  grid md:grid-cols-3 grid-cols-1 gap-4 mt-8">
               {/* <!-- 1 --> */}
-              <div class=" card">
-                <span class="">
-                  <ion-icon
-                    class="sm:text-5xl text-3xl text-green-400 dark:text-green-600"
-                    name="code-slash-outline"
-                  ></ion-icon>
-                </span>
+              <div class="card flex flex-col justify-center items-center   ">
+                
+                  <img
+                   src={research} class="w-16 mb-4" alt=""
+                   
+                  /> 
+              
 
                 <div class="flex flex-col gap-2">
-                  <h3 class="text-xl font-semibold text-white dark:text-black">
+                  <p class="text-xl font-semibold text-white  ">
                     Research & Development
-                  </h3>
+                  </p>
                   <p class="text-white text-justify">
                     Pioneering advancements in AI and robotics to solve
                     real-world problems and unlock new possibilities. Our R&D
@@ -42,19 +50,17 @@ const WeDo = () => {
               </div>
 
               {/* <!-- 2 --> */}
-              <div class="  sm:gap-4 gap-2">
-                <span>
-                  <ion-icon
-                    class="sm:text-5xl text-3xl text-green-400 dark:text-green-600"
-                    name="browsers-outline"
-                  ></ion-icon>
-                </span>
+              <div class=" card flex flex-col justify-center items-center">
+              <img
+                   src={global} class="w-16 mb-4" alt=""
+                   
+                  /> 
 
                 <div class="flex flex-col gap-2">
-                  <h3 class="text-xl font-semibold text-white dark:text-black">
+                  <p class="text-xl font-semibold text-white  ">
                     Global Events & Conferences
-                  </h3>
-                  <p class="text-white dark:text-gray-700">
+                  </p>
+                  <p class="text-white  text-justify">
                     Connecting visionaries through inspiring talks, workshops,
                     and exhibitions. Our events foster collaboration, spark
                     creativity, and showcase the latest breakthroughs in AI and
@@ -64,76 +70,110 @@ const WeDo = () => {
               </div>
 
               {/* <!-- 3 --> */}
-              <div class="  sm:gap-4 gap-2">
-                <span>
-                  <ion-icon
-                    class="sm:text-5xl text-3xl text-green-400 dark:text-green-600"
-                    name="archive-outline"
-                  ></ion-icon>
-                </span>
+              <div class=" card flex flex-col justify-center items-center">
+              <img
+                   src={Education} class="w-16 mb-4" alt=""
+                   
+                  /> 
 
                 <div class="flex flex-col gap-2">
-                  <h3 class="text-xl font-semibold text-white dark:text-black">
-                    Custom CMS Solutions
-                  </h3>
-                  <p class="text-gray-400 dark:text-gray-700">
-                    Building reusable and efficient CMS APIs to simplify website
-                    management and scalability.
+                  <p class="text-xl font-semibold text-white dark:text-black">
+                    Education & Training
+                  </p>
+                  <p class="text-white  ">
+                    Equipping the next generation of tech leaders with knowledge
+                    and hands-on skills. We provide certifications, online
+                    courses, and mentorship programs to inspire future
+                    innovators.
                   </p>
                 </div>
               </div>
               {/* <!-- 4 --> */}
-              <div class="  sm:gap-4 gap-2">
-                <span>
-                  <ion-icon
-                    class="sm:text-5xl text-3xl text-green-400 dark:text-green-600"
-                    name="phone-portrait-outline"
-                  ></ion-icon>
-                </span>
+              <div class="card flex flex-col justify-center items-center   ">
+                
+                <img
+                 src={Collaboration} class="w-16 mb-4" alt=""
+                 
+                /> 
                 <div class="flex flex-col gap-2">
-                  <h3 class="text-xl font-semibold text-white dark:text-black">
-                    Mobile App Dev't
-                  </h3>
-                  <p class="text-gray-400 dark:text-gray-700">
-                    Designing and developing user-friendly mobile applications
-                    for iOS and Android, ensuring seamless performance and user
-                    satisfaction.
+                  <p class="text-xl font-semibold text-white dark:text-black">
+                    Collaboration & Innovation
+                  </p>
+                  <p class="text-white">
+                    Bridging the gap between industries, academia, and
+                    governments to create a unified global impact. Our
+                    partnerships accelerate progress and drive sustainable
+                    solutions for communities worldwide.
                   </p>
                 </div>
               </div>
               {/* <!-- 5 --> */}
-              <div class="  sm:gap-4 gap-2">
-                <span>
-                  <ion-icon
-                    class="sm:text-5xl text-3xl text-green-400 dark:text-green-600"
-                    name="bag-check-outline"
-                  ></ion-icon>
-                </span>
+              <div class="card flex flex-col justify-center items-center   ">
+                
+                <img
+                 src={advocacy} class="w-16 mb-4" alt=""
+                 
+                />
                 <div class="flex flex-col gap-2">
                   <h3 class="text-xl font-semibold text-white dark:text-black">
-                    E-commerce Development
+                    Ethical AI Advocacy
                   </h3>
-                  <p class="text-gray-400 dark:text-gray-700">
-                    Creating robust platforms to elevate your online business
-                    presence.
+                  <p class="text-white">
+                    Promoting responsible AI development and usage. We ensure
+                    that ethics, transparency, and inclusivity remain central to
+                    technological advancements.
                   </p>
                 </div>
               </div>
               {/* <!-- 6 --> */}
-              <div class="  sm:gap-4 gap-2">
-                <span>
-                  <ion-icon
-                    class="sm:text-5xl text-3xl text-green-400 dark:text-green-600"
-                    name="swap-horizontal-outline"
-                  ></ion-icon>
-                </span>
+              <div class="card flex flex-col justify-center items-center   ">
+                
+                <img
+                 src={start} class="w-16 mb-4" alt=""
+                 
+                />
+                <div class="flex flex-col gap-2">
+                  <p class="text-xl font-semibold text-white dark:text-black">
+                    Start-up Support & Incubation
+                  </p>
+                  <p class="text-white  ">
+                    Empowering entrepreneurs by providing resources, funding,
+                    and mentorship to transform visionary ideas into successful
+                    AI and robotics businesses.
+                  </p>
+                </div>
+              </div>
+              <div class="card flex flex-col justify-center items-center   ">
+                
+                <img
+                 src={community} class="w-16 mb-4" alt=""
+                 
+                />
                 <div class="flex flex-col gap-2">
                   <h3 class="text-xl font-semibold text-white dark:text-black">
-                    API Integration
+                    Community Engagement
                   </h3>
-                  <p class="text-gray-400 dark:text-gray-700">
-                    Seamlessly connecting systems to enhance functionality and
-                    performance.
+                  <p class="text-white  ">
+                    Building a global community of enthusiasts, educators, and
+                    innovators. Through hackathons, meetups, and outreach
+                    programs, we inspire participation at every level.
+                  </p>
+                </div>
+              </div>
+              <div class="card flex flex-col justify-center items-center   ">
+                
+                <img
+                 src={policy} class="w-16 mb-4" alt=""
+                 
+                />
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-xl font-semibold text-white dark:text-black">
+                  Policy & Governance
+                  </h3>
+                  <p class="text-white">
+                    Empowering entrepreneurs by providing resources, funding,
+                    and mentorship to transform visionary ideas into successful
+                    AI and robotics businesses.
                   </p>
                 </div>
               </div>
