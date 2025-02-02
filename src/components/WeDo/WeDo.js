@@ -17,11 +17,11 @@ const WeDo = () => {
           <section class=" w-full h-full flex flex-col justify-center   py-10 md:px-20 px-2">
             {/* <!-- Heading --> */}
             <div class="w-fit">
-              <h2 class="text-2xl font-bold text-white dark:text-black pb-2">
+              <h2 class="text-4xl font-bold text-white dark:text-black pb-2">
                 What WE Do
               </h2>
               <div class="rounded-t-full border-[1px] border-gray-500 dark:border-gray-400 overflow-hidden">
-                <hr class="border-[3px] border-green-400 dark:border-green-600 w-[20%]" />
+                <hr class="border-[3px] border-[#48135e] dark:border-green-600 w-[20%]" />
               </div>
             </div>
 

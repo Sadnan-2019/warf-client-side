@@ -11,7 +11,7 @@ const Nav = () => {
     // };
   
     const active =
-      "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 bg-[#215083]  transition     hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-blue-800    ";
+      "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 bg-gradient-to-r from-[#4B2B6C] via-[#6b2c86] to-[#38235D]  transition     hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-white    ";
   
     const normal =
       "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0    ";

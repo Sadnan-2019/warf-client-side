@@ -18,10 +18,23 @@
     /* text-align: center; */
   }
   
-  /* .slick-prev:before,
-    .slick-next:before {
-      color: rgb(29, 7, 94);
-    } */
+  .slick-prev:before,
+  .slick-next:before {
+     
+    color: rgb(225, 222, 234);
+  }
+  
+  /* ////new button place on image  */
+  .slick-prev {
+    z-index: 100;
+    left: 10px;
+  }
+  
+  .slick-next {
+    /* z-index: 100; */
+    width: 100px;
+  }
+   
   
   .landingone {
     background-image: linear-gradient(

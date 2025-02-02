@@ -16,11 +16,11 @@ const Team = () => {
 
             <div class="w-full h-full text-center flex flex-col gap-4 relative -top-10">
                 <h1 class="uppercase text-lg font-semibold dark:text-white">
-                    Software Developer
+                President
                 </h1>
 
                 <h2 class="text-xl font-serif capitalize font-semibold text-gray-700 dark:text-gray-300">
-                    samuel abera
+                Dr. Md. Mahbubur Rahman
                 </h2>
 
                 <p class="text-gray-700 dark:text-gray-300">
@@ -40,11 +40,11 @@ const Team = () => {
 
             <div class="w-full h-full text-center flex flex-col gap-4 relative -top-10">
                 <h1 class="uppercase text-lg font-semibold dark:text-white">
-                    Software Developer
+                Vice President
                 </h1>
 
                 <h2 class="text-xl font-serif capitalize font-semibold text-gray-700 dark:text-gray-300">
-                    Abc Esx
+                Dr. Zahir Uddin Mahmud
                 </h2>
 
                 <p class="text-gray-700 dark:text-gray-300">
@@ -64,11 +64,11 @@ const Team = () => {
 
             <div class="w-full h-full text-center flex flex-col gap-4 relative -top-10">
                 <h1 class="uppercase text-lg font-semibold dark:text-white">
-                    Software Developer
+                General Secretary
                 </h1>
 
                 <h2 class="text-xl font-serif capitalize font-semibold text-gray-700 dark:text-gray-300">
-                    Yzx Lms
+                Md. Alimuzzaman
                 </h2>
 
                 <p class="text-gray-700 dark:text-gray-300">

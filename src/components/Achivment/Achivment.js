@@ -1,10 +1,18 @@
 import React from "react";
-
+import students from "../../assets/student.png"
+import country from "../../assets/conuntry.png"
+import teams from "../../assets/teams.png"
+import curnival from "../../assets/curnival.png"
+import university from "../../assets/university.png"
+import organization from "../../assets/organization.png"
+import research from "../../assets/new research-and-development (1).png"
+import global from "../../assets/global.png"
+import lab from "../../assets/lab.png"
 const Achivment = () => {
   return (
     <div>
       <section class="p-4">
-        <h2 class="text-4xl sm:text-5xl md:text-4xl text-center chelsea-market-regular font-bold text-[#6b2c86] md:mb-16 mb-10 py-10">
+        <h2 class="text-4xl sm:text-5xl md:text-4xl text-center chelsea-market-regular font-bold text-[#6b2c86] md:mb-16 mb-10 ">
           Our Achivment
         </h2>
 
@@ -13,17 +21,11 @@ const Achivment = () => {
             <a
               href="https://eliteai.tools/category/productivity"
               data-clickable="Category:20:category-card"
-              class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
+              class="block h-full transition-all duration-200   border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
               <div class="flex items-center p-6   bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
-                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
-                  <span
-                    class="text-4xl"
-                    role="img"
-                    aria-label="Productivity category"
-                  >
-                    ⏱️
-                  </span>
+                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded   group-hover:bg-green-100">
+                  <img src={students}/>
                 </div>
 
                 <div class="flex-grow ml-6 ">
@@ -61,17 +63,11 @@ const Achivment = () => {
             <a
               href="https://eliteai.tools/category/business"
               data-clickable="Category:5:category-card"
-              class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
+              class="block h-full transition-all duration-200  border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
               <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
-                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
-                  <span
-                    class="text-4xl"
-                    role="img"
-                    aria-label="Business category"
-                  >
-                    💼
-                  </span>
+                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded   group-hover:bg-green-100">
+                  <img src={country}/>
                 </div>
 
                 <div class="flex-grow ml-6">
@@ -110,17 +106,11 @@ const Achivment = () => {
             <a
               href="https://eliteai.tools/category/content-generation"
               data-clickable="Category:86:category-card"
-              class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
+              class="block h-full transition-all duration-200   border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
               <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
-                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
-                  <span
-                    class="text-4xl"
-                    role="img"
-                    aria-label="Content Generation category"
-                  >
-                    📝
-                  </span>
+                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded   group-hover:bg-green-100">
+                  <img src={teams}/>
                 </div>
 
                 <div class="flex-grow ml-6">
@@ -158,17 +148,11 @@ const Achivment = () => {
             <a
               href="https://eliteai.tools/category/developer-tools"
               data-clickable="Category:44:category-card"
-              class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
+              class="block h-full transition-all duration-200  border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
               <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
-                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
-                  <span
-                    class="text-4xl"
-                    role="img"
-                    aria-label="Developer Tools category"
-                  >
-                    🛠️
-                  </span>
+                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded   group-hover:bg-green-100">
+                  <img src={curnival}/>
                 </div>
 
                 <div class="flex-grow ml-6">
@@ -209,14 +193,8 @@ const Achivment = () => {
               class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
               <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
-                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
-                  <span
-                    class="text-4xl"
-                    role="img"
-                    aria-label="Marketing category"
-                  >
-                    📣
-                  </span>
+                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded   group-hover:bg-green-100">
+                  <img src={university}/>
                 </div>
 
                 <div class="flex-grow ml-6">
@@ -254,17 +232,11 @@ const Achivment = () => {
             <a
               href="https://eliteai.tools/category/education"
               data-clickable="Category:11:category-card"
-              class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
+              class="block h-full transition-all duration-200   border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
               <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
-                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
-                  <span
-                    class="text-4xl"
-                    role="img"
-                    aria-label="Education category"
-                  >
-                    🎓
-                  </span>
+                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded   group-hover:bg-green-100">
+                  <img src={organization}/>
                 </div>
 
                 <div class="flex-grow ml-6">
@@ -302,17 +274,11 @@ const Achivment = () => {
             <a
               href="https://eliteai.tools/category/image-generator"
               data-clickable="Category:42:category-card"
-              class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
+              class="block h-full transition-all duration-200   border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
               <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
-                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
-                  <span
-                    class="text-4xl"
-                    role="img"
-                    aria-label="Image Generator category"
-                  >
-                    🖌️
-                  </span>
+                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded   group-hover:bg-green-100">
+                   <img src={research}/>
                 </div>
 
                 <div class="flex-grow ml-6">
@@ -350,17 +316,11 @@ const Achivment = () => {
             <a
               href="https://eliteai.tools/category/data-analysis"
               data-clickable="Category:8:category-card"
-              class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
+              class="block h-full transition-all duration-200  border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
               <div class="flex items-center p-6 bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D]">
-                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
-                  <span
-                    class="text-4xl"
-                    role="img"
-                    aria-label="Data Analysis category"
-                  >
-                    📊
-                  </span>
+                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded  group-hover:bg-green-100">
+                  <img src={global}/>
                 </div>
 
                 <div class="flex-grow ml-6">
@@ -398,17 +358,11 @@ const Achivment = () => {
             <a
               href="https://eliteai.tools/category/design"
               data-clickable="Category:9:category-card"
-              class="block h-full transition-all duration-200 bg-white border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
+              class="block h-full transition-all duration-200   border border-gray-200 rounded group hover:shadow-lg hover:border-green-500 hover:ring-1 hover:ring-green-500/20"
             >
               <div class="flex items-center p-6  bg-gradient-to-r from-[#341850] via-[#3b0353] to-[#38235D] ">
-                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded bg-green-50 group-hover:bg-green-100">
-                  <span
-                    class="text-4xl"
-                    role="img"
-                    aria-label="Design category"
-                  >
-                    🎨
-                  </span>
+                <div class="flex items-center justify-center flex-shrink-0 w-16 h-16 transition-colors duration-200 rounded   group-hover:bg-green-100">
+                  <img src={lab}/>
                 </div>
 
                 <div class="flex-grow ml-6">
