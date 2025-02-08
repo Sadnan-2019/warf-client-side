@@ -15,7 +15,8 @@ import WeDo from './components/WeDo/WeDo';
 import Speach from './components/Speach/Speach'
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
-import Robotics from './components/Robotics/Robotics';
+// import Robotics from './components/Robotics/Research';
+import Research from './components/Robotics/Research';
  
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
        <Routes>
        <Route path="/" element={<Home/>}></Route>
        <Route path="/home" element={<Home/>}></Route>
-       <Route path="/research" element={<Robotics></Robotics>}></Route>
+       <Route path="/research" element={<Research></Research>}></Route>
        </Routes>
        <Contact></Contact>
        <Footer></Footer>
