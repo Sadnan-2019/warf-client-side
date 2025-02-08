@@ -25,13 +25,22 @@ const Nav = () => {
         <li className="nav-item p-2 list-none 	">
           <NavLink onClick={() => setIsOpen(false)}
             className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-            to="/home"
+            to="/"
           >
             HOME
           </NavLink>
         </li>
+
+        <li className="nav-item p-2 	list-none">
+          <NavLink onClick={() => setIsOpen(false)}
+            className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
+            to="/research"
+          >
+            RESEARCH
+          </NavLink>
+          </li>
   
-        <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
+        {/* <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
           <NavLink className="mx-1 text-white-600   font-bold text-black   p-0  ">
         PROGRAM
           </NavLink>
@@ -46,7 +55,7 @@ const Nav = () => {
                 className={({ isActive }) =>
                   isActive ? `${active}` : `${dropnormal}`
                 }
-                to="/water-lily-hall"
+                to="/robo"
               >
                 Robotics League 
               </NavLink>
@@ -62,20 +71,11 @@ const Nav = () => {
               </NavLink>
             </li>
            
-            {/* <li className="nav-item p-2">
-              <NavLink onClick={() => setIsOpen(false)}
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${dropnormal}`
-                }
-                to="/tgr"
-              >
-                Tulip Garden & Resturent
-              </NavLink>
-            </li> */}
+          
            
             
           </ul>
-        </li>
+        </li> */}
   
         <li className="nav-item p-2 	list-none">
           <NavLink onClick={() => setIsOpen(false)}
@@ -100,6 +100,14 @@ const Nav = () => {
             to="/about-us"
           >
             ABOUT US
+          </NavLink>
+        </li>
+        <li className="nav-item p-2 list-none	">
+          <NavLink onClick={() => setIsOpen(false)}
+            className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+            to="/blog"
+          >
+            BLOG
           </NavLink>
         </li>
   

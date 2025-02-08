@@ -13,24 +13,20 @@ import Achivment from './components/Achivment/Achivment';
 import Team from './components/Team/Team';
 import WeDo from './components/WeDo/WeDo';
 import Speach from './components/Speach/Speach'
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home/Home';
+import Robotics from './components/Robotics/Robotics';
  
 
 function App() {
   return (
     <div className="App">
        <Nav></Nav>
-       <Landing></Landing>
-    
-       <Competitions></Competitions>
-       <WeDo></WeDo>
-       <Events></Events>
-       {/* <Who></Who>
-        */}
-       
-       <Achivment></Achivment>
-       {/* <Speach></Speach> */}
-       <Partner></Partner>
-       <Team></Team>
+       <Routes>
+       <Route path="/" element={<Home/>}></Route>
+       <Route path="/home" element={<Home/>}></Route>
+       <Route path="/research" element={<Robotics></Robotics>}></Route>
+       </Routes>
        <Contact></Contact>
        <Footer></Footer>
     </div>

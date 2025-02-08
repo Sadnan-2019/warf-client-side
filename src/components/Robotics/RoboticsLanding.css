@@ -1,0 +1,24 @@
+.full-width-slider {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+  }
+
+  .robotics-landing{
+    background-image: linear-gradient(
+        to left,
+        rgba(154, 143, 213, 0.01),
+        rgba(0, 9, 10, 0.9)
+      ),
+      url("../../assets/RoboticsLeague.jpg");
+    width: 100%;
+    height: 50vh;
+  
+    background-size: contain;
+    background-size: cover;
+  
+    background-size: 100% 100%;
+  
+    background-repeat: no-repeat;
+
+  }
