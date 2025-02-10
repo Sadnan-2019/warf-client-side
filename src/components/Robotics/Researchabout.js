@@ -109,6 +109,9 @@ const Researchabout = () => {
           </div>
         </div>
       </div>
+
+
+      
     </div>
   );
 };

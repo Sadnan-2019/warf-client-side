@@ -80,7 +80,7 @@ const Nav = () => {
         <li className="nav-item p-2 	list-none">
           <NavLink onClick={() => setIsOpen(false)}
             className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
-            to="/facilities"
+            to="/news"
           >
             NEWS
           </NavLink>
