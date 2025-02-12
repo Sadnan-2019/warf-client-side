@@ -25,7 +25,7 @@ const WeDo = () => {
               </div>
             </div>
 
-            <div class="  grid md:grid-cols-3 grid-cols-1 gap-4 mt-8">
+            <div class=" text-center  grid md:grid-cols-3 grid-cols-1 gap-4 mt-8">
               {/* <!-- 1 --> */}
               <div class="card flex flex-col justify-center items-center   ">
                 

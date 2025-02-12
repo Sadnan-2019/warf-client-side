@@ -10,9 +10,9 @@
         rgba(154, 143, 213, 0.01),
         rgba(0, 9, 10, 0.9)
       ),
-      url("../../assets/RoboticsLeague.jpg");
+      url("../../assets/about.jpg");
     width: 100%;
-    height: 50vh;
+    height: 80vh;
   
     background-size: contain;
     background-size: cover;

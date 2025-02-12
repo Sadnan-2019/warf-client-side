@@ -18,6 +18,7 @@ import Home from './components/Home/Home';
 // import Robotics from './components/Robotics/Research';
 import Research from './components/Robotics/Research';
 import News from './components/News/News';
+import About from './components/About/About';
  
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
        <Route path="/home" element={<Home/>}></Route>
        <Route path="/research" element={<Research></Research>}></Route>
        <Route path="/news" element={<News></News>}></Route>
+       <Route path="/about-us" element={<About></About>}></Route>
        </Routes>
        <Contact></Contact>
        <Footer></Footer>
